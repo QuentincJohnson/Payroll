@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+body{
+    text-align: center;
+    color: white;
+    background-color: rgb(41, 41, 42);
+    font-family: 'Alatsi', sans-serif;
+}
+h1{
+    border-bottom: 2px solid rgb(75, 81, 202);
+    margin: 0rem 25rem;
+    margin-bottom: 1rem;
+}
+
+input[type=text]{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+
+button{
+    font-size: 2rem;
+    width:20rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 2px solid white ;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:  rgb(75, 81, 202);
+    border-radius: 6px;
+}
+
+button:hover{
+    border: 5px solid rgb(75, 81, 202);
+    border-radius: 10px;
+    transition: border 0.3s;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#slip{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-top: 2px solid rgb(75, 81, 202);
+    margin: 2rem 25rem;
+    padding-top: 2rem;
+}
+
+#calculate{
+    width: 10em;
+}

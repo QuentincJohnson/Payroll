@@ -85,9 +85,9 @@ function payout() {
             <li>Name: ${name}</li>
             <li>Department: ${depo}</li>
             <li>Worker: ${typeFull}</li>
-            <li>Gross Salary: ${gross}</li>
-            <li>Deductions: ${deduction}</li>
-            <li>Net Pay: ${netPay}</li>
+            <li>Gross Salary: $${gross}</li>
+            <li>Deductions: $${deduction}</li>
+            <li>Net Pay: $${netPay}</li>
         </ul>`
 }
 
