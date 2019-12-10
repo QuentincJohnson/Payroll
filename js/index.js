@@ -64,7 +64,6 @@ function payout() {
     if (dedGross <=0){
         dedGross = gross;
     }
-    alert(dedGross);
 
     var tax = gross *0.25;
     var health;
