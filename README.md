@@ -1,13 +1,6 @@
 # Payroll
 payroll for WDDM
 
-ABCC
-    student population == 500
-    workforce
-        regular staff 
-        faculty
-
-
 
 
 html page needs
