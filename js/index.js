@@ -60,12 +60,13 @@ function payout() {
     }
 
     //DEDUCTIONS
-    var dedGross = gross - 2500;//handeling the 2500 income free allowance
-    if (dedGross <=0){
-        dedGross = gross;
+    //handeling the 2500 income free allowance
+    var tax;
+    if (gross <=2500){
+        tax = 0;
+    } else{
+        tax = gross *0.25;
     }
-
-    var tax = gross *0.25;
     var health;
     if (gross > 3000) {
         health = 33.00;
